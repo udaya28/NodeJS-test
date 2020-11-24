@@ -5,6 +5,6 @@ const server = http.createServer((req, res) => {
   res.end('Hello' + req.url); 
 });
 
-server.listen(8000, '127.0.0.1', () => {
+server.listen(server.address().port,server.address(), () => {
   console.log('listening at http://localhost:8000/');
 });
