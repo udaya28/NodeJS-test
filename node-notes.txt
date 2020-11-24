@@ -1,0 +1,15 @@
+Node js is the Java Script runtime environment built over Google V8 Engine.
+Node is single threaded I/O model, non blocking system, fast and scalable.
+It is not good for CPU intensive operation.
+---------------------------------------------------------
+To find version => "node -v"
+Write JS in terminal by opening REPL  => "node"
+Read-Eval-Print-Loop (REPL) is an interactive shell that processes Node. js expressions.
+Run multiple line using SHIFT + ENTER.
+Exit REPL ".exit" or "CONTROL + D".
+use TAB in REPL to see all global package.
+use "_" to get previous result in next line.
+use "<package name>." + TAB + TAB to get all properties of it.
+------------------------------------------------------------
+
+Run JS file by using "node <file name>"
